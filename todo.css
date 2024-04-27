@@ -1,0 +1,26 @@
+.taskBar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.taskList {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.taskBox {
+    display: flex;
+    min-width: min-content;
+    width: 300px;
+    border: solid 1px black;
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 10px;
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
